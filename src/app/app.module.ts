@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './componentes/header/header.component';
+import { SonicBounceComponent } from './componentes/sonic-bounce/sonic-bounce.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    SonicBounceComponent
   ],
   imports: [
     BrowserModule,

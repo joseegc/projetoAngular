@@ -1,0 +1,17 @@
+header {
+    position: relative; /* Container for the logo */
+    /* background-image: url('/assets/banner.jpeg'); */
+    height: 360px; /* Adjust based on your design */
+    overflow: hidden; /* Hide overflow when the logo moves outside the boundaries */
+  }
+  
+  .logo {
+    position: absolute; /* Allows the logo to be moved dynamically */
+    width: 250px; /* Set the size of your logo */
+    height: auto;
+    border-radius: 10px; /* Optional rounded corners */
+    transition: transform 0.1s ease-out; /* Smooth transition when position updates */
+  }
+  
+
+  
