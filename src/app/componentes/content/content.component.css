@@ -1,0 +1,27 @@
+section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    padding: 1rem;
+    background-color: aqua;
+    min-height: 73.75vh;
+    border: solid 4px black;
+}
+
+
+.sidebar-box {
+    /* flex-grow: 1; */
+    width: 20%;
+    background-color: white;
+    border: 4px solid black;
+}
+
+.content-box {
+    /* flex-grow: 1; */
+
+    width: 70%;
+    background-color: white;
+    border: 4px solid black;
+}
